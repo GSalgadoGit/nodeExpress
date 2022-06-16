@@ -1,6 +1,6 @@
 // Workshop - Task 2
 const express = require('express');
-const campsiteRouter = express.Router();
+const promotionRouter = express.Router();
 
 promotionRouter.route('/')
 .all((req, res, next) => {
